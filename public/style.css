@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(210, 210, 224);
+}
+
+.div-contein-form{
+    padding-top: 2em;
+}
+
+.nav-link-contein{
+    color: white;
+}
+
+.nav-link-contein:hover{
+    padding-left: .1rem;
+    color: white;
+}
+
+.nav-link-contein-index{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link-contein-index:hover{
+    padding-left: .1rem;
+    color: white;
+}
+
+.div-contain{
+    padding-top: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.div-flex-resposta{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding:1em 0 ;
+}
+
+.btn-momento{
+    margin-top: 1em;
+}
+
+.descricao-pergunta{
+    display: inline-block;
+    padding: .8rem;
+    background-color: rgba(0, 0, 0, 0.267);
+    border-radius: 2rem;
+    transition: padding-left 1s;
+}
+
+.descricao-pergunta:hover{
+    padding-left: 1.5rem;
+}
+
+.div-contein-respostas{
+    padding: .8rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+.h3-respostas{
+    padding-bottom: .7rem;
+}
+
+.paragrafo-contein-respostas{
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.267);
+    border-radius: 1rem;
+    transition: padding-left 1s;
+}
+
+.paragrafo-contein-respostas:hover{
+    padding-left: 1.5rem;
+}
